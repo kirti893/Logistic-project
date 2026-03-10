@@ -1,5 +1,5 @@
 # Logistics Domain - Salesforce to Azure Lakehouse
-## Complete Implementation Package
+
 
 This package contains everything you need to implement an end-to-end Logistics Data Lakehouse using Azure services, extracting data from Salesforce and following the Medallion Architecture (Bronze → Silver → Gold).
 
@@ -34,7 +34,7 @@ logistics_project/
 
 ---
 
-## 🚀 Quick Start Guide
+
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ Before starting, ensure you have:
 
 ---
 
-## Phase 1: Azure Infrastructure Setup (Day 1)
+## Phase 1: Azure Infrastructure Setup 
 
 ### 1.1 Login to Azure
 
@@ -100,7 +100,7 @@ After the script completes, verify in Azure Portal:
 
 ---
 
-## Phase 2: Configuration Setup (Day 1-2)
+## Phase 2: Configuration Setup
 
 ### 2.1 Deploy SQL Configuration Tables
 
@@ -137,7 +137,7 @@ You should see 11 configured Salesforce objects (Account, Load, Carrier, etc.)
 
 ---
 
-## Phase 3: Azure Data Factory Setup (Day 2)
+## Phase 3: Azure Data Factory Setup 
 
 ### 3.1 Create Linked Services
 
@@ -540,49 +540,12 @@ GRANT ALL PRIVILEGES ON SCHEMA bronze TO `your_user`;
 
 ---
 
-## 📚 Additional Resources
 
-- [Full Technical Documentation](logistics_lakehouse_implementation.md)
-- [Azure Data Factory Docs](https://docs.microsoft.com/azure/data-factory/)
-- [Databricks Unity Catalog](https://docs.databricks.com/data-governance/unity-catalog/)
-- [Delta Lake Best Practices](https://docs.delta.io/latest/best-practices.html)
 
 ---
 
-## 🤝 Support & Contribution
 
-For issues or questions:
-1. Review the troubleshooting section
-2. Check Azure service health
-3. Review Databricks cluster logs
-4. Contact your Azure/Databricks support team
 
----
 
-## ✅ Deployment Checklist
-
-- [ ] Azure infrastructure created (Phase 1)
-- [ ] SQL configuration tables deployed (Phase 2)
-- [ ] ADF linked services configured (Phase 3)
-- [ ] ADF pipeline imported and tested (Phase 3)
-- [ ] Unity Catalog configured (Phase 4)
-- [ ] Databricks notebooks deployed (Phase 4)
-- [ ] Bronze layer tested (Phase 5)
-- [ ] Silver layer tested (Phase 5)
-- [ ] Gold layer tested (Phase 5)
-- [ ] Data quality checks passing (Phase 5)
-- [ ] Jobs and triggers scheduled (Phase 6)
-- [ ] BI tool connected (Phase 6)
-- [ ] Monitoring configured (Phase 6)
-
----
-
-## 📝 License
-
-This project is provided as-is for educational and implementation purposes.
-
----
-
-**Last Updated:** January 2024  
 **Version:** 1.0  
 **Status:** Production Ready
