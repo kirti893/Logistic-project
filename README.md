@@ -31,22 +31,6 @@ logistics_project/
 └── config_files/
     └── (generated configurations)
 ```
-
----
-
-
-
-### Prerequisites
-
-Before starting, ensure you have:
-
-✅ **Azure Subscription** with Owner or Contributor access  
-✅ **Azure CLI** installed ([Install Guide](https://docs.microsoft.com/cli/azure/install-azure-cli))  
-✅ **Salesforce Account** with API access  
-✅ **bash** shell (Linux, macOS, or WSL on Windows)  
-✅ **jq** installed (`sudo apt install jq` or `brew install jq`)  
-✅ **sqlcmd** (optional, for automated SQL deployment)
-
 ### Step-by-Step Implementation
 
 ---
@@ -543,9 +527,3 @@ GRANT ALL PRIVILEGES ON SCHEMA bronze TO `your_user`;
 
 
 ---
-
-
-
-
-**Version:** 1.0  
-**Status:** Production Ready
